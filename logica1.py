@@ -1,0 +1,8 @@
+python logica1.pyton
+p = True
+q = False
+
+print("p AND q:", p and q)
+print("p OR q:", p or q)
+print("NOT p:", not p)
+

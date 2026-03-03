@@ -1,0 +1,14 @@
+# Guardamos tu edad como referencia
+mi_edad = 25  # Pon aquí tu edad real
+
+print("--- SISTEMA DE VERIFICACIÓN DE EDAD ---")
+edad_usuario = int(input("¿Cuántos años tienes? "))
+
+if edad_usuario > mi_edad:
+    print("Eres mayor que yo, tienes acceso prioritario.")
+elif edad_usuario == mi_edad:
+    print("Tenemos la misma edad, ¡bienvenido!")
+else:
+    diferencia = mi_edad - edad_usuario
+    print(f"Eres {diferencia} años menor que yo. Acceso restringido.")
+
