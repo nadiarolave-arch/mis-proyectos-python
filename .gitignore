@@ -1,0 +1,4 @@
+.ssh/
+.termux/
+.bash_history
+.gitconfig
